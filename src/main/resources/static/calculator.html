@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+</head>
+<body>
+<h1>Калькулятор</h1>
+<form action="http://localhost:8080/calculator/solve" method="post">
+    <label for="expression">Математическое выражение:</label>
+    <input type="text" id="expression" name="expression"><br><br>
+    <label for="numType">Тип чисел:</label>
+    <select id="numType" name="numType">
+        <option value="arabic">Арабские числа</option>
+        <option value="roman">Римские числа</option>
+    </select><br><br>
+    <input type="submit" value="Вычислить">
+</form>
+</body>
+</html>
+
